@@ -12,6 +12,12 @@ This is a Python-based SQL Injection detection tool designed to help identify SQ
 
 ## Usage
 
+If you want to use GET request, type :
+python scanner_tool.py "http://example.com/page?param1=value1&param2=value2"
+
+If you want to use POST request, Type:
+python scanner_tool.py "http://example.com/login" -X POST -d "username=admin&password=1234"
+
 Install dependencies:
 
 ```bash
